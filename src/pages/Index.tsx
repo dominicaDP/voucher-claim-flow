@@ -67,6 +67,21 @@ const Index = () => {
             <TrustIndicator />
           </CardContent>
         </Card>
+
+        {/* Opt-out Link */}
+        <div className="text-center">
+          <a 
+            href="#" 
+            className="text-sm text-brand-white/60 hover:text-brand-white/80 underline transition-colors"
+            onClick={(e) => {
+              e.preventDefault();
+              // Handle opt-out logic here
+              console.log('User opted out of communication and voucher receipt');
+            }}
+          >
+            Don't want to receive this voucher or future communications? Opt out here
+          </a>
+        </div>
       </div>
     </div>
   );
