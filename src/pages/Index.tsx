@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import VoucherDisplay from '@/components/VoucherDisplay';
@@ -13,7 +12,7 @@ const Index = () => {
 
   // Mock data for prototype
   const mockData = {
-    clientName: "ABC Rewards",
+    clientName: "ABC Membership",
     voucherValue: "R75",
     phoneNumber: "+27 123 456 789"
   };
